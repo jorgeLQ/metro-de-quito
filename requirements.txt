@@ -4,3 +4,4 @@ Plotly
 pandas
 dash-bootstrap-components
 gunicorn
+openpyxl
