@@ -21,14 +21,16 @@ TEXT_STYLEP={
 'text-align': 'left',
 'height': '45px',
 'padding-left': '10px',
-'font-size': '25px'
+'font-size': '25px',
+'color': '#155076'
 }
 TEXT_STYLEP2={
 'text-align': 'left',
 'height': '45px',
 'padding-left': '10px',
 'font-size': '25px',
-'font-weight': 'bold'
+'font-weight': 'bold',
+'color': '#155076'
 }
 BR_STYLE={
 'background-color': 'red',
@@ -182,6 +184,7 @@ def create_dash_application2(flask_app):
                     html.Span('Metro de Quito', style=TEXT_STYLEP2),
                 ],style=DIV_IZ),
                 html.Div([
+                    html.A('Regresar', href="/", className='btn', style={'background-color': '#155076','color':'white'}),
                     html.Img(src=('../static/images/metro_logo.png'), style=IMG_LOGO),
                     html.Br(),
                     html.Span('FECHA DE CORTE: 15/01/2023'),

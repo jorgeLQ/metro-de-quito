@@ -1,0 +1,10 @@
+#btn_i:hover{
+  color: #dc3545;
+  border-color: #dc3545;
+  background-color: white
+}
+
+#btn_i{
+  background-color: #dc3545;
+  color: white;
+}
